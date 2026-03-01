@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="58-Школа">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>58-Школа</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <strong class="header__strong">58 Школа</strong>
+
+                <div class="header__right">
+
+                    <!-- LANGUAGE SWITCHER -->
+                    <div class="lang-switcher" id="langSwitcher">
+                        <div class="lang-switcher__indicator" id="langIndicator"></div>
+                        <button class="lang-btn" id="btn-uz" onclick="window.location.href='index-uz.html'">
+                            <span class="flag">UZ</span> 
+                        </button>
+                        <button class="lang-btn active" id="btn-ru">
+                            <span class="flag">РУ</span> 
+                        </button>
+                    </div>
+
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <nav id="main-nav">
+                        <ul class="header_list">
+                            <li><a class="header__link" href="#">О нас</a></li>
+                            <li><a class="header__link" href="#news">Новости</a></li>
+                            <li><a class="header__link" href="#reception">Приём</a></li>
+                            <li><a class="header__link" href="#photo">Галерея</a></li>
+                            <li><a class="header__link" href="#connection">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__inner" data-aos="fade-up" data-aos-duration="700">
+                        <h1 class="hero__title">Добро пожаловать в школу №58</h1>
+                        <p class="hero__text">Качественное образование, развитое обучение и хорошее будущее</p>
+                        <a class="hero__link" href="#reception">Подать заявку</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SCHOOL ===== -->
+        <section>
+            <div class="container">
+                <div class="school__wrapper">
+                    <div class="school__inner">
+                        <h2 class="school__title">О школе</h2>
+                        <span class="school__span"></span>
+                        <h3 class="school__title2">Кто мы?</h3>
+                        <p class="school_text">Средняя школа №58 с 1991 года преданно служит сфере образования. Наша школа ориентирована на качественное обучение и всестороннее развитие учащихся.</p>
+                        <p class="school_text">Благодаря современным методам преподавания, опытным и квалифицированным учителям, а также эффективной системе воспитания мы обеспечиваем личностный и интеллектуальный рост каждого ученика.</p>
+                        <p class="school_text">Наша главная цель — дать каждому ученику качественные знания и помочь ему уверенно строить своё будущее.</p>
+                        <ul class="school__list">
+                            <li class="school__item">
+                                <strong class="school__strong">1200+</strong>
+                                <p class="school__desc">Учеников</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">85+</strong>
+                                <p class="school__desc">Учителей</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">78+</strong>
+                                <p class="school__desc">Лет опыта</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">91%</strong>
+                                <p class="school__desc">Успешность</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="school__box"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWS ===== -->
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="news__title">Последние новости</h2>
+                <span class="news__span"></span>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/mikrafon.svg" width="50" height="50" alt="mikrafon"></div>
+                            <time class="news__strong">13 февраля, 2026</time>
+                            <h3 class="news__title2">Приглашение на Весенний фестиваль</h3>
+                            <p class="news__text">Наши студенты примут участие в весеннем фестивале 20 марта. Мы в ожидании этого чудесного события!</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/kubuk.svg" width="50" height="50" alt="kubuk"></div>
+                            <time class="news__strong">10 февраля, 2026</time>
+                            <h3 class="news__title2">Победа на математической олимпиаде</h3>
+                            <p class="news__text">Наши студенты заняли первое место на республиканской олимпиаде по математике. Поздравляем!</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/book.svg" width="50" height="50" alt="book"></div>
+                            <time class="news__strong">13 февраля, 2026</time>
+                            <h3 class="news__title2">Открылась библиотека книг</h3>
+                            <p class="news__text">Новая современная библиотека открылась для дальнейшего улучшения обучения студентов.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== RECEPTION ===== -->
+        <section id="reception">
+            <div class="container">
+                <div class="reception__wrapper">
+                    <div class="reception__box">
+                        <h2 class="reception__title">Приём — 2026</h2>
+                        <span class="reception__span"></span>
+                        <h3 class="reception__title2">Приём учеников на новый учебный год</h3>
+                        <p class="reception__text">Наша школа объявляет набор учащихся в 1-е и другие классы на 2025-2026 учебный год.</p>
+                        <div class="reception__inner">
+                            <h3 class="reception__title3">Перечень необходимых документов:</h3>
+                            <ul>
+                                <li class="reception__item">Свидетельство о рождении ребенка</li>
+                                <li class="reception__item">Копии паспортов родителей</li>
+                                <li class="reception__item">Медицинская карта</li>
+                                <li class="reception__item">Справка о месте жительства</li>
+                                <li class="reception__item">Медицинская справка о состоянии здоровья</li>
+                                <li class="reception__item">Документы, удостоверяющие личность родителей</li>
+                            </ul>
+                        </div>
+                        <time class="reception__desc">
+                            <strong class="reception__strong">Сроки приёма:</strong> c 15 марта по 30 апреля
+                        </time>
+                    </div>
+
+                    <div>
+                        <form class="form" action="#">
+                            <h3 class="reception__title4">Онлайн-заявка на приём</h3>
+
+                            <div class="reception__row">
+                                <label class="reception__label" for="stuLastName">Фамилия ученика</label>
+                                <input class="reception__input" id="stuLastName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="stuFirstName">Имя ученика</label>
+                                <input class="reception__input" id="stuFirstName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="parLastName">Фамилия родителя</label>
+                                <input class="reception__input" id="parLastName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="parFirstName">Имя родителя</label>
+                                <input class="reception__input" id="parFirstName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="phone">Номер телефона</label>
+                                <input class="reception__input" id="phone" type="tel" placeholder="+998 __ ___ __ __" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="email">Адрес электронной почты</label>
+                                <input class="reception__input" id="email" type="email" required placeholder="example@gmail.com">
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="select">Выберите класс</label>
+                                <select class="reception__select" id="select" required>
+                                    <option class="reception__option" disabled selected>Выберите класс</option>
+                                    <option class="reception__option">1-класс</option>
+                                    <option class="reception__option">2-класс</option>
+                                    <option class="reception__option">3-класс</option>
+                                    <option class="reception__option">4-класс</option>
+                                    <option class="reception__option">5-класс</option>
+                                    <option class="reception__option">6-класс</option>
+                                    <option class="reception__option">7-класс</option>
+                                    <option class="reception__option">8-класс</option>
+                                    <option class="reception__option">9-класс</option>
+                                    <option class="reception__option">10-класс</option>
+                                    <option class="reception__option">11-класс</option>
+                                </select>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="additional">Дополнительные комментарии</label>
+                                <textarea class="reception__textarea" id="additional"></textarea>
+                            </div>
+
+                            <button class="reception__btn" type="submit">Отправить заявление</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY ===== -->
+        <section class="photo" id="photo">
+            <div class="container">
+                <h2 class="photo__title">Галерея</h2>
+                <span class="photo__span"></span>
+                <div class="photo__list">
+                    <a class="photo__link2" href="#"><img src="./img/camera.svg" alt="camera"></a>
+                    <a class="photo__link" href="#"><img src="./img/ball.svg" alt="ball"></a>
+                    <a class="photo__link" href="#"><img src="./img/art.svg" alt="art"></a>
+                    <a class="photo__link" href="#"><img src="./img/curtains.svg" alt="curtains"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONNECTION ===== -->
+        <section class="connection" id="connection">
+            <div class="container">
+                <h2 class="connection__title">Свяжитесь с нами</h2>
+                <span class="connection__span"></span>
+                <ul class="connection__list">
+                    <li class="connection__item">
+                        <h3 class="connection__title1">Адрес</h3>
+                        <ul>
+                            <li class="connection__item2"><strong class="connection__strong">Область:</strong> Наманганская область.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Район:</strong> Давлатабадский район.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Микрорайон:</strong> 3-й микрорайон.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Улица и дом:</strong> ул. Тинчлик, дом 39А.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Почтовый индекс:</strong> 160110.</li>
+                        </ul>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title2">Телефон</h3>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title3">Email</h3>
+                        <a class="connection__link" href="#">info@school.uz</a>
+                        <a class="connection__link" href="#">info@school.uz</a>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title4">Время работы</h3>
+                        <time class="connection__desc"><strong class="connection__strong">Пн — Сб:</strong> 08:00 – 16:00</time>
+                        <time class="connection__desc"><strong class="connection__strong">Вс:</strong> Выходной</time>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title5">Социальные сети</h3>
+                        <div class="connection__holder">
+                            <a class="connection__link" href="#">Facebook</a>
+                            <p class="connection__text">|</p>
+                            <a class="connection__link" href="#">Instagram</a>
+                            <p class="connection__text">|</p>
+                            <a class="connection__link" href="#">Telegram</a>
+                        </div>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title6">Директор</h3>
+                        <p class="connection__desc">Хамитов Муроджон</p>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__text">© 2026 Учебное заведение. Все права защищены.</p>
+                <p class="footer__text">Качественное образование — Светлое будущее</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="./script.js"></script>
+    <script>
+        // RU sahifasida RU active
+        window.addEventListener('load', () => {
+            const indicator = document.getElementById('langIndicator');
+            const btn = document.getElementById('btn-ru');
+            const switcher = document.getElementById('langSwitcher');
+            const bRect = btn.getBoundingClientRect();
+            const sRect = switcher.getBoundingClientRect();
+            indicator.style.left = (bRect.left - sRect.left) + 'px';
+            indicator.style.width = bRect.width + 'px';
+        });
+        window.addEventListener('resize', () => {
+            const indicator = document.getElementById('langIndicator');
+            const btn = document.getElementById('btn-ru');
+            const switcher = document.getElementById('langSwitcher');
+            const bRect = btn.getBoundingClientRect();
+            const sRect = switcher.getBoundingClientRect();
+            indicator.style.left = (bRect.left - sRect.left) + 'px';
+            indicator.style.width = bRect.width + 'px';
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="58-Maktab">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>58-Maktab</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <strong class="header__strong">58 Maktab</strong>
+
+                <div class="header__right">
+
+                    <!-- LANGUAGE SWITCHER -->
+                    <div class="lang-switcher" id="langSwitcher">
+                        <div class="lang-switcher__indicator" id="langIndicator"></div>
+                        <button class="lang-btn active" id="btn-uz">
+                            <span class="flag">UZ</span>
+                        </button>
+                        <button class="lang-btn" id="btn-ru" onclick="window.location.href='index.html'">
+                            <span class="flag">РУ</span>
+                        </button>
+                    </div>
+
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <nav id="main-nav">
+                        <ul class="header_list">
+                            <li><a class="header__link" href="#">Biz haqimizda</a></li>
+                            <li><a class="header__link" href="#news">Yangiliklar</a></li>
+                            <li><a class="header__link" href="#reception">Qabul</a></li>
+                            <li><a class="header__link" href="#photo">Galereya</a></li>
+                            <li><a class="header__link" href="#connection">Kontaktlar</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="hero__inner" data-aos="fade-up" data-aos-duration="700">
+                        <h1 class="hero__title">58-maktabga xush kelibsiz</h1>
+                        <p class="hero__text">Sifatli ta'lim, rivojlangan o'qitish va yorug' kelajak</p>
+                        <a class="hero__link" href="#reception">Ariza topshirish</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SCHOOL ===== -->
+        <section>
+            <div class="container">
+                <div class="school__wrapper">
+                    <div class="school__inner">
+                        <h2 class="school__title">Maktab haqida</h2>
+                        <span class="school__span"></span>
+                        <h3 class="school__title2">Biz kimiz?</h3>
+                        <p class="school_text">58-sonli o'rta maktab 1991 yildan beri ta'lim sohasiga sadoqat bilan xizmat qilib kelmoqda. Maktabimiz o'quvchilarning sifatli ta'lim olishi va har tomonlama rivojlanishiga yo'naltirilgan.</p>
+                        <p class="school_text">Zamonaviy o'qitish usullari, tajribali va malakali o'qituvchilar hamda samarali tarbiya tizimi orqali biz har bir o'quvchining shaxsiy va intellektual o'sishini ta'minlaymiz.</p>
+                        <p class="school_text">Asosiy maqsadimiz — har bir o'quvchiga sifatli bilim berish va uning kelajagini ishonch bilan qurishiga yordam berish.</p>
+                        <ul class="school__list">
+                            <li class="school__item">
+                                <strong class="school__strong">1200+</strong>
+                                <p class="school__desc">O'quvchilar</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">85+</strong>
+                                <p class="school__desc">O'qituvchilar</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">78+</strong>
+                                <p class="school__desc">Yillik tajriba</p>
+                            </li>
+                            <li class="school__item">
+                                <strong class="school__strong">91%</strong>
+                                <p class="school__desc">Muvaffaqiyat</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="school__box"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEWS ===== -->
+        <section class="news" id="news">
+            <div class="container">
+                <h2 class="news__title">So'nggi yangiliklar</h2>
+                <span class="news__span"></span>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/mikrafon.svg" width="50" height="50" alt="mikrafon"></div>
+                            <time class="news__strong">13 fevral, 2026</time>
+                            <h3 class="news__title2">Bahor festivaliga taklif</h3>
+                            <p class="news__text">O'quvchilarimiz 20 mart kuni bahor festivalida ishtirok etadi. Bu ajoyib tadbirni sabrsizlik bilan kutmoqdamiz!</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/kubuk.svg" width="50" height="50" alt="kubuk"></div>
+                            <time class="news__strong">10 fevral, 2026</time>
+                            <h3 class="news__title2">Matematika olimpiadasida g'alaba</h3>
+                            <p class="news__text">O'quvchilarimiz respublika matematika olimpiadasida birinchi o'rinni egalladi. Tabriklaymiz!</p>
+                        </a>
+                    </li>
+                    <li class="news__item">
+                        <a href="#">
+                            <div class="news__inner"><img src="./img/book.svg" width="50" height="50" alt="book"></div>
+                            <time class="news__strong">13 fevral, 2026</time>
+                            <h3 class="news__title2">Kutubxona ochildi</h3>
+                            <p class="news__text">O'quvchilar ta'limini yanada yaxshilash maqsadida yangi zamonaviy kutubxona ochildi.</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== RECEPTION ===== -->
+        <section id="reception">
+            <div class="container">
+                <div class="reception__wrapper">
+                    <div class="reception__box">
+                        <h2 class="reception__title">Qabul — 2026</h2>
+                        <span class="reception__span"></span>
+                        <h3 class="reception__title2">Yangi o'quv yiliga o'quvchilarni qabul qilish</h3>
+                        <p class="reception__text">Maktabimiz 2025-2026 o'quv yili uchun 1-sinf va boshqa sinflarga o'quvchilar qabulini e'lon qiladi.</p>
+                        <div class="reception__inner">
+                            <h3 class="reception__title3">Kerakli hujjatlar ro'yxati:</h3>
+                            <ul>
+                                <li class="reception__item">Bolaning tug'ilganlik guvohnomasi</li>
+                                <li class="reception__item">Ota-onalar pasportining nusxasi</li>
+                                <li class="reception__item">Tibbiy karta</li>
+                                <li class="reception__item">Yashash joyi to'g'risidagi ma'lumotnoma</li>
+                                <li class="reception__item">Sog'liq holati to'g'risidagi tibbiy ma'lumotnoma</li>
+                                <li class="reception__item">Ota-onalarning shaxsini tasdiqlovchi hujjatlar</li>
+                            </ul>
+                        </div>
+                        <time class="reception__desc">
+                            <strong class="reception__strong">Qabul muddati:</strong> 15 martdan 30 aprelgacha
+                        </time>
+                    </div>
+
+                    <div>
+                        <form class="form" action="#">
+                            <h3 class="reception__title4">Onlayn qabul arizasi</h3>
+
+                            <div class="reception__row">
+                                <label class="reception__label" for="stuLastName">O'quvchining familiyasi</label>
+                                <input class="reception__input" id="stuLastName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="stuFirstName">O'quvchining ismi</label>
+                                <input class="reception__input" id="stuFirstName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="parLastName">Ota-onaning familiyasi</label>
+                                <input class="reception__input" id="parLastName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="parFirstName">Ota-onaning ismi</label>
+                                <input class="reception__input" id="parFirstName" type="text" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="phone">Telefon raqami</label>
+                                <input class="reception__input" id="phone" type="tel" placeholder="+998 __ ___ __ __" required>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="email">Elektron pochta manzili</label>
+                                <input class="reception__input" id="email" type="email" required placeholder="example@gmail.com">
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="select">Sinfni tanlang</label>
+                                <select class="reception__select" id="select" required>
+                                    <option class="reception__option" disabled selected>Sinfni tanlang</option>
+                                    <option class="reception__option">1-sinf</option>
+                                    <option class="reception__option">2-sinf</option>
+                                    <option class="reception__option">3-sinf</option>
+                                    <option class="reception__option">4-sinf</option>
+                                    <option class="reception__option">5-sinf</option>
+                                    <option class="reception__option">6-sinf</option>
+                                    <option class="reception__option">7-sinf</option>
+                                    <option class="reception__option">8-sinf</option>
+                                    <option class="reception__option">9-sinf</option>
+                                    <option class="reception__option">10-sinf</option>
+                                    <option class="reception__option">11-sinf</option>
+                                </select>
+                            </div>
+                            <div class="reception__row">
+                                <label class="reception__label" for="additional">Qo'shimcha izohlar</label>
+                                <textarea class="reception__textarea" id="additional"></textarea>
+                            </div>
+
+                            <button class="reception__btn" type="submit">Arizani yuborish</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY ===== -->
+        <section class="photo" id="photo">
+            <div class="container">
+                <h2 class="photo__title">Galereya</h2>
+                <span class="photo__span"></span>
+                <div class="photo__list">
+                    <a class="photo__link2" href="#"><img src="./img/camera.svg" alt="camera"></a>
+                    <a class="photo__link" href="#"><img src="./img/ball.svg" alt="ball"></a>
+                    <a class="photo__link" href="#"><img src="./img/art.svg" alt="art"></a>
+                    <a class="photo__link" href="#"><img src="./img/curtains.svg" alt="curtains"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONNECTION ===== -->
+        <section class="connection" id="connection">
+            <div class="container">
+                <h2 class="connection__title">Biz bilan bog'laning</h2>
+                <span class="connection__span"></span>
+                <ul class="connection__list">
+                    <li class="connection__item">
+                        <h3 class="connection__title1">Manzil</h3>
+                        <ul>
+                            <li class="connection__item2"><strong class="connection__strong">Viloyat:</strong> Namangan viloyati.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Tuman:</strong> Davlatobod tumani.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Mikrorayon:</strong> 3-mikrorayon.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Ko'cha va uy:</strong> Tinchlik ko'chasi, 39A uy.</li>
+                            <li class="connection__item2"><strong class="connection__strong">Pochta indeksi:</strong> 160110.</li>
+                        </ul>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title2">Telefon</h3>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title3">Email</h3>
+                        <a class="connection__link" href="#">info@school.uz</a>
+                        <a class="connection__link" href="#">info@school.uz</a>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title4">Ish vaqti</h3>
+                        <time class="connection__desc"><strong class="connection__strong">Du — Sha:</strong> 08:00 – 16:00</time>
+                        <time class="connection__desc"><strong class="connection__strong">Yak:</strong> Dam olish kuni</time>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title5">Ijtimoiy tarmoqlar</h3>
+                        <div class="connection__holder">
+                            <a class="connection__link" href="#">Facebook</a>
+                            <p class="connection__text">|</p>
+                            <a class="connection__link" href="#">Instagram</a>
+                            <p class="connection__text">|</p>
+                            <a class="connection__link" href="#">Telegram</a>
+                        </div>
+                    </li>
+                    <li class="connection__item">
+                        <h3 class="connection__title6">Direktor</h3>
+                        <p class="connection__desc">Hamitov Murodjон</p>
+                        <a class="connection__link" href="tel:+998999999999">+998 99 999 99 99</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__text">© 2026 Ta'lim muassasasi. Barcha huquqlar himoyalangan.</p>
+                <p class="footer__text">Sifatli ta'lim — Yorug' kelajak</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="./script.js"></script>
+    <script>
+        // UZ sahifasida UZ active
+        window.addEventListener('load', () => {
+            const indicator = document.getElementById('langIndicator');
+            const btn = document.getElementById('btn-uz');
+            const switcher = document.getElementById('langSwitcher');
+            const bRect = btn.getBoundingClientRect();
+            const sRect = switcher.getBoundingClientRect();
+            indicator.style.left = (bRect.left - sRect.left) + 'px';
+            indicator.style.width = bRect.width + 'px';
+        });
+        window.addEventListener('resize', () => {
+            const indicator = document.getElementById('langIndicator');
+            const btn = document.getElementById('btn-uz');
+            const switcher = document.getElementById('langSwitcher');
+            const bRect = btn.getBoundingClientRect();
+            const sRect = switcher.getBoundingClientRect();
+            indicator.style.left = (bRect.left - sRect.left) + 'px';
+            indicator.style.width = bRect.width + 'px';
+        });
+    </script>
+
+</body>
+</html>
