@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="58-Школа">
+    <meta name="description" content="Школа №58 — Наманганская область, Давлатабадский район">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>58-Школа</title>
+    <link rel="preload" href="./style.css" as="style">
     <link rel="stylesheet" href="./style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
 </head>
 
 <body>
@@ -17,27 +19,22 @@
         <div class="container">
             <div class="header__wrapper">
                 <strong class="header__strong">58 Школа</strong>
-
                 <div class="header__right">
-
-                    <!-- LANGUAGE SWITCHER -->
                     <div class="lang-switcher" id="langSwitcher">
                         <div class="lang-switcher__indicator" id="langIndicator"></div>
-                        <button class="lang-btn" id="btn-uz" onclick="window.location.href='index-uz.html'">
-                            <span class="flag">UZ</span> 
+                        <button class="lang-btn" id="btn-uz" aria-label="O'zbek tili" onclick="window.location.href='index-uz.html'">
+                            <span class="flag">UZ</span>
                         </button>
-                        <button class="lang-btn active" id="btn-ru">
-                            <span class="flag">РУ</span> 
+                        <button class="lang-btn active" id="btn-ru" aria-label="Русский язык">
+                            <span class="flag">РУ</span>
                         </button>
                     </div>
-
-                    <button class="hamburger" id="hamburger">
+                    <button class="hamburger" id="hamburger" aria-label="Меню" aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
-
-                    <nav id="main-nav">
+                    <nav id="main-nav" aria-label="Главное меню">
                         <ul class="header_list">
                             <li><a class="header__link" href="#">О нас</a></li>
                             <li><a class="header__link" href="#news">Новости</a></li>
@@ -57,7 +54,7 @@
         <section class="hero">
             <div class="container">
                 <div class="hero__wrapper">
-                    <div class="hero__inner" data-aos="fade-up" data-aos-duration="700">
+                    <div class="hero__inner">
                         <h1 class="hero__title">Добро пожаловать в школу №58</h1>
                         <p class="hero__text">Качественное образование, развитое обучение и хорошее будущее</p>
                         <a class="hero__link" href="#reception">Подать заявку</a>
@@ -67,12 +64,12 @@
         </section>
 
         <!-- ===== SCHOOL ===== -->
-        <section>
+        <section aria-label="О школе">
             <div class="container">
                 <div class="school__wrapper">
                     <div class="school__inner">
                         <h2 class="school__title">О школе</h2>
-                        <span class="school__span"></span>
+                        <span class="school__span" aria-hidden="true"></span>
                         <h3 class="school__title2">Кто мы?</h3>
                         <p class="school_text">Средняя школа №58 с 1991 года преданно служит сфере образования. Наша школа ориентирована на качественное обучение и всестороннее развитие учащихся.</p>
                         <p class="school_text">Благодаря современным методам преподавания, опытным и квалифицированным учителям, а также эффективной системе воспитания мы обеспечиваем личностный и интеллектуальный рост каждого ученика.</p>
@@ -96,37 +93,37 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="school__box"></div>
+                    <div class="school__box" aria-hidden="true"></div>
                 </div>
             </div>
         </section>
 
         <!-- ===== NEWS ===== -->
-        <section class="news" id="news">
+        <section class="news" id="news" aria-label="Новости">
             <div class="container">
                 <h2 class="news__title">Последние новости</h2>
-                <span class="news__span"></span>
+                <span class="news__span" aria-hidden="true"></span>
                 <ul class="news__list">
                     <li class="news__item">
                         <a href="#">
-                            <div class="news__inner"><img src="./img/mikrafon.svg" width="50" height="50" alt="mikrafon"></div>
-                            <time class="news__strong">13 февраля, 2026</time>
+                            <div class="news__inner"><img src="./img/mikrafon.svg" width="50" height="50" alt="" loading="lazy"></div>
+                            <time class="news__strong" datetime="2026-02-13">13 февраля, 2026</time>
                             <h3 class="news__title2">Приглашение на Весенний фестиваль</h3>
                             <p class="news__text">Наши студенты примут участие в весеннем фестивале 20 марта. Мы в ожидании этого чудесного события!</p>
                         </a>
                     </li>
                     <li class="news__item">
                         <a href="#">
-                            <div class="news__inner"><img src="./img/kubuk.svg" width="50" height="50" alt="kubuk"></div>
-                            <time class="news__strong">10 февраля, 2026</time>
+                            <div class="news__inner"><img src="./img/kubuk.svg" width="50" height="50" alt="" loading="lazy"></div>
+                            <time class="news__strong" datetime="2026-02-10">10 февраля, 2026</time>
                             <h3 class="news__title2">Победа на математической олимпиаде</h3>
                             <p class="news__text">Наши студенты заняли первое место на республиканской олимпиаде по математике. Поздравляем!</p>
                         </a>
                     </li>
                     <li class="news__item">
                         <a href="#">
-                            <div class="news__inner"><img src="./img/book.svg" width="50" height="50" alt="book"></div>
-                            <time class="news__strong">13 февраля, 2026</time>
+                            <div class="news__inner"><img src="./img/book.svg" width="50" height="50" alt="" loading="lazy"></div>
+                            <time class="news__strong" datetime="2026-02-13">13 февраля, 2026</time>
                             <h3 class="news__title2">Открылась библиотека книг</h3>
                             <p class="news__text">Новая современная библиотека открылась для дальнейшего улучшения обучения студентов.</p>
                         </a>
@@ -136,12 +133,12 @@
         </section>
 
         <!-- ===== RECEPTION ===== -->
-        <section id="reception">
+        <section id="reception" aria-label="Приём">
             <div class="container">
                 <div class="reception__wrapper">
                     <div class="reception__box">
                         <h2 class="reception__title">Приём — 2026</h2>
-                        <span class="reception__span"></span>
+                        <span class="reception__span" aria-hidden="true"></span>
                         <h3 class="reception__title2">Приём учеников на новый учебный год</h3>
                         <p class="reception__text">Наша школа объявляет набор учащихся в 1-е и другие классы на 2025-2026 учебный год.</p>
                         <div class="reception__inner">
@@ -155,22 +152,21 @@
                                 <li class="reception__item">Документы, удостоверяющие личность родителей</li>
                             </ul>
                         </div>
-                        <time class="reception__desc">
+                        <p class="reception__desc">
                             <strong class="reception__strong">Сроки приёма:</strong> c 15 марта по 30 апреля
-                        </time>
+                        </p>
                     </div>
 
                     <div>
-                        <form class="form" action="#">
+                        <form class="form" action="#" novalidate>
                             <h3 class="reception__title4">Онлайн-заявка на приём</h3>
-
                             <div class="reception__row">
                                 <label class="reception__label" for="stuLastName">Фамилия ученика</label>
-                                <input class="reception__input" id="stuLastName" type="text" required>
+                                <input class="reception__input" id="stuLastName" type="text" required autocomplete="family-name">
                             </div>
                             <div class="reception__row">
                                 <label class="reception__label" for="stuFirstName">Имя ученика</label>
-                                <input class="reception__input" id="stuFirstName" type="text" required>
+                                <input class="reception__input" id="stuFirstName" type="text" required autocomplete="given-name">
                             </div>
                             <div class="reception__row">
                                 <label class="reception__label" for="parLastName">Фамилия родителя</label>
@@ -182,16 +178,16 @@
                             </div>
                             <div class="reception__row">
                                 <label class="reception__label" for="phone">Номер телефона</label>
-                                <input class="reception__input" id="phone" type="tel" placeholder="+998 __ ___ __ __" required>
+                                <input class="reception__input" id="phone" type="tel" placeholder="+998 __ ___ __ __" required autocomplete="tel">
                             </div>
                             <div class="reception__row">
                                 <label class="reception__label" for="email">Адрес электронной почты</label>
-                                <input class="reception__input" id="email" type="email" required placeholder="example@gmail.com">
+                                <input class="reception__input" id="email" type="email" required placeholder="example@gmail.com" autocomplete="email">
                             </div>
                             <div class="reception__row">
                                 <label class="reception__label" for="select">Выберите класс</label>
                                 <select class="reception__select" id="select" required>
-                                    <option class="reception__option" disabled selected>Выберите класс</option>
+                                    <option class="reception__option" disabled selected value="">Выберите класс</option>
                                     <option class="reception__option">1-класс</option>
                                     <option class="reception__option">2-класс</option>
                                     <option class="reception__option">3-класс</option>
@@ -209,7 +205,6 @@
                                 <label class="reception__label" for="additional">Дополнительные комментарии</label>
                                 <textarea class="reception__textarea" id="additional"></textarea>
                             </div>
-
                             <button class="reception__btn" type="submit">Отправить заявление</button>
                         </form>
                     </div>
@@ -218,24 +213,24 @@
         </section>
 
         <!-- ===== GALLERY ===== -->
-        <section class="photo" id="photo">
+        <section class="photo" id="photo" aria-label="Галерея">
             <div class="container">
                 <h2 class="photo__title">Галерея</h2>
-                <span class="photo__span"></span>
+                <span class="photo__span" aria-hidden="true"></span>
                 <div class="photo__list">
-                    <a class="photo__link2" href="#"><img src="./img/camera.svg" alt="camera"></a>
-                    <a class="photo__link" href="#"><img src="./img/ball.svg" alt="ball"></a>
-                    <a class="photo__link" href="#"><img src="./img/art.svg" alt="art"></a>
-                    <a class="photo__link" href="#"><img src="./img/curtains.svg" alt="curtains"></a>
+                    <a class="photo__link2" href="#" aria-label="Галерея 1"><img src="./img/camera.svg" alt="" loading="lazy"></a>
+                    <a class="photo__link" href="#" aria-label="Галерея 2"><img src="./img/ball.svg" alt="" loading="lazy"></a>
+                    <a class="photo__link" href="#" aria-label="Галерея 3"><img src="./img/art.svg" alt="" loading="lazy"></a>
+                    <a class="photo__link" href="#" aria-label="Галерея 4"><img src="./img/curtains.svg" alt="" loading="lazy"></a>
                 </div>
             </div>
         </section>
 
         <!-- ===== CONNECTION ===== -->
-        <section class="connection" id="connection">
+        <section class="connection" id="connection" aria-label="Контакты">
             <div class="container">
                 <h2 class="connection__title">Свяжитесь с нами</h2>
-                <span class="connection__span"></span>
+                <span class="connection__span" aria-hidden="true"></span>
                 <ul class="connection__list">
                     <li class="connection__item">
                         <h3 class="connection__title1">Адрес</h3>
@@ -254,22 +249,22 @@
                     </li>
                     <li class="connection__item">
                         <h3 class="connection__title3">Email</h3>
-                        <a class="connection__link" href="#">info@school.uz</a>
-                        <a class="connection__link" href="#">info@school.uz</a>
+                        <a class="connection__link" href="mailto:info@school.uz">info@school.uz</a>
+                        <a class="connection__link" href="mailto:info@school.uz">info@school.uz</a>
                     </li>
                     <li class="connection__item">
                         <h3 class="connection__title4">Время работы</h3>
-                        <time class="connection__desc"><strong class="connection__strong">Пн — Сб:</strong> 08:00 – 16:00</time>
-                        <time class="connection__desc"><strong class="connection__strong">Вс:</strong> Выходной</time>
+                        <p class="connection__desc"><strong class="connection__strong">Пн — Сб:</strong> 08:00 – 16:00</p>
+                        <p class="connection__desc"><strong class="connection__strong">Вс:</strong> Выходной</p>
                     </li>
                     <li class="connection__item">
                         <h3 class="connection__title5">Социальные сети</h3>
                         <div class="connection__holder">
-                            <a class="connection__link" href="#">Facebook</a>
-                            <p class="connection__text">|</p>
-                            <a class="connection__link" href="#">Instagram</a>
-                            <p class="connection__text">|</p>
-                            <a class="connection__link" href="#">Telegram</a>
+                            <a class="connection__link" href="#" aria-label="Facebook">Facebook</a>
+                            <p class="connection__text" aria-hidden="true">|</p>
+                            <a class="connection__link" href="#" aria-label="Instagram">Instagram</a>
+                            <p class="connection__text" aria-hidden="true">|</p>
+                            <a class="connection__link" href="#" aria-label="Telegram">Telegram</a>
                         </div>
                     </li>
                     <li class="connection__item">
@@ -293,30 +288,7 @@
         </div>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <script src="./script.js"></script>
-    <script>
-        // RU sahifasida RU active
-        window.addEventListener('load', () => {
-            const indicator = document.getElementById('langIndicator');
-            const btn = document.getElementById('btn-ru');
-            const switcher = document.getElementById('langSwitcher');
-            const bRect = btn.getBoundingClientRect();
-            const sRect = switcher.getBoundingClientRect();
-            indicator.style.left = (bRect.left - sRect.left) + 'px';
-            indicator.style.width = bRect.width + 'px';
-        });
-        window.addEventListener('resize', () => {
-            const indicator = document.getElementById('langIndicator');
-            const btn = document.getElementById('btn-ru');
-            const switcher = document.getElementById('langSwitcher');
-            const bRect = btn.getBoundingClientRect();
-            const sRect = switcher.getBoundingClientRect();
-            indicator.style.left = (bRect.left - sRect.left) + 'px';
-            indicator.style.width = bRect.width + 'px';
-        });
-    </script>
+    <script src="./script.js" defer></script>
 
 </body>
 </html>
