@@ -621,7 +621,19 @@ h1,h2,h3,h4,h5,h6,p,a,ul,ol {
 .photo__link {
     border-radius: 5px;
     text-align: center;
-    padding: 80px 60px 70px;
+    padding: 85px 65px 70px;
+    width: 712px;
+    background: linear-gradient(to right, #1E43AD, #0e8d83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo__link1 {
+    border-radius: 5px;
+    text-align: center;
+    padding: 91px 80px 81px;
     width: 712px;
     background: linear-gradient(to right, #1E43AD, #0e8d83);
     display: flex;
