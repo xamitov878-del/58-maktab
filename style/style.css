@@ -485,7 +485,7 @@ ol {
     height: 15px;
     background-size: cover;
     margin-right: 7px;
-    background-image: url(./img/checkmark.svg);
+    background-image: url(../img/checkmark.svg);
 }
 
 .reception__desc {
@@ -589,9 +589,9 @@ ol {
     border-radius: 10px;
     outline: none;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
-    color: #64748B;
+    color: #757575;
     background: white;
     transition: 0.3s;
 }
@@ -602,7 +602,7 @@ ol {
 
 .reception__option {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -841,6 +841,22 @@ ol {
 }
 
 .connection__link:hover{
+    text-decoration: underline;
+}
+
+.connection__link1 {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #F59E0B;
+    margin-bottom: 15px;
+    background-color: inherit;
+    border: none;
+}
+
+.connection__link1:hover{
     text-decoration: underline;
 }
 

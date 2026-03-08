@@ -66,3 +66,14 @@ if (form) {
         }
     });
 }
+
+const isUzGlobal = document.documentElement.lang === 'uz';
+
+const elLinks = document.querySelectorAll(".connection__link1");
+
+elLinks.forEach(link => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        alert(isUzGlobal ? "Ushbu bo'lim tez orada ishga tushadi!" : "Этот раздел скоро станет доступен!");
+    });
+});
