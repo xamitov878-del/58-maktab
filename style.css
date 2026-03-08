@@ -764,7 +764,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,ol {
     .reception__btn { width:100%; }
     .photo__title { font-size:28px; }
     .photo__list { flex-direction:column; }
-    .photo__link2,.photo__link { width:100%;padding:50px 20px; }
+    .photo__link2,.photo__link,.photo__link1 { width:100%;padding:50px 20px; }
     .connection__title { font-size:28px; }
     .connection__list { flex-direction:column; }
     .connection__item,.connection__item:nth-child(2),.connection__item:nth-child(3),.connection__item:nth-child(5) { width:100%;padding:20px; }
