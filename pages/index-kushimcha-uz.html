@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>58-Maktab · 2025–2026</title>
   <link rel="stylesheet" href="../style/style-kushimcha.css">
-    <link rel="icon" type="image/svg+xml" href="../img/logo.png">
+  <link rel="icon" type="image/svg+xml" href="../img/logo.png">
 </head>
 
 <body>
@@ -19,8 +19,9 @@
     <div class="nd" onclick="goTo(3)"></div>
     <div class="nd" onclick="goTo(4)"></div>
     <div class="nd" onclick="goTo(5)"></div>
+    <div class="nd" onclick="goTo(6)"></div>
   </div>
-  <div id="slide-ctr">01 / 06</div>
+  <div id="slide-ctr">01 / 07</div>
   <button id="btn-prev" onclick="nav(-1)">↑</button>
   <button id="btn-next" onclick="nav(1)">↓</button>
 
@@ -30,7 +31,6 @@
     <span class="slide-num-badge">01</span>
 
     <div class="s1-logo-ring as d1">
-      <!-- Replace: <img src="logo.png"> -->
       <div class="s1-logo-ph">DAVLATOBOD<br>58-SONLI<br>MAKTAB</div>
     </div>
 
@@ -59,7 +59,6 @@
     <div class="s2-layout">
       <div class="s2-photo al d1">
         <div class="flag-strip"></div>
-        <!-- Replace: <img src="director.jpg"> -->
         <div class="ph-label"><img src="../img/direktor.png" alt="direktor"></div>
       </div>
 
@@ -114,9 +113,140 @@
   </section>
 
 
-  <!-- ══════ SLIDE 4 — CLUBS ══════ -->
-  <section class="slide grid-tex" id="s4">
+  <!-- ══════ SLIDE 4 — YUTUQLAR (YANGI) ══════ -->
+  <section class="slide" id="s4-yutuq">
     <span class="slide-num-badge">04</span>
+
+    <div style="display:flex;flex-direction:column;width:100%;min-height:100vh;position:relative;z-index:1;">
+
+      <!-- Sarlavha -->
+      <div class="yutuq-header au d1">
+        <span class="yutuq-header-icon">🏆</span>
+        <h2>Maktabimizda 2025-Yilda Erishilgan Yutuqlar</h2>
+        <span class="yutuq-header-icon">🏆</span>
+      </div>
+
+      <!-- Kartalar -->
+      <div class="yutuq-body">
+        <div class="yutuq-grid">
+
+          <!-- Karta 1: Bitiruvchilar -->
+          <div class="yutuq-card as d2">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq1.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Bitiruvchilar">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🎓</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">01</span>
+                <span class="yutuq-card-badge">Bitiruvchilar</span>
+              </div>
+              <p class="yutuq-card-title">Maktabimizning eng katta yutug'i — 2025-yil bitiruvchilarining
+                <strong>85%i</strong> talaba bo'ldilar</p>
+            </div>
+          </div>
+
+          <!-- Karta 2: Sertifikatlar -->
+          <div class="yutuq-card as d3">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq2.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Sertifikatlar">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">📜</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">02</span>
+                <span class="yutuq-card-badge">Sertifikatlar</span>
+              </div>
+              <p class="yutuq-card-title">Xalqaro va milliy sertifikatga ega bo'lgan <strong>200 dan ortiq</strong>
+                o'quvchilarimiz bor</p>
+            </div>
+          </div>
+
+          <!-- Karta 3: Sport -->
+          <div class="yutuq-card as d4">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq3.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Sport">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🥇</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">03</span>
+                <span class="yutuq-card-badge">Sport</span>
+              </div>
+              <p class="yutuq-card-title">O'zbekiston, Osiyo va Jahon chempionatlarida <strong>20 dan ortiq</strong>
+                o'quvchilarimiz oltin medal qo'lga kiritdilar</p>
+            </div>
+          </div>
+
+          <!-- Karta 4: Ko'rik tanlovlar -->
+          <div class="yutuq-card as d5">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq4.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Ko'rik tanlovlar">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🏅</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">04</span>
+                <span class="yutuq-card-badge">Ko'rik tanlovlar</span>
+              </div>
+              <p class="yutuq-card-title">Viloyat, Respublika va Xalqaro ko'rik tanlovlarda qatnashib katta
+                <strong>yutug'larga</strong> erishdilar</p>
+            </div>
+          </div>
+
+          <!-- Karta 5: Olimpiadalar -->
+          <div class="yutuq-card as d6">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq5.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Olimpiadalar">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🎭</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">05</span>
+                <span class="yutuq-card-badge">Olimpiadalar</span>
+              </div>
+              <p class="yutuq-card-title">Respublika "Turon teatri", "Iqtidor ansambli", olimpiada va Xalqaro
+                olimpiadalarda o'quvchilarimiz <strong>oliy o'rinlarni</strong> egallashdi</p>
+            </div>
+          </div>
+
+          <!-- Karta 6: Umumiy natija -->
+          <div class="yutuq-card as d7">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq6.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Natija">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🏫</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">06</span>
+                <span class="yutuq-card-badge">Umumiy natija</span>
+              </div>
+              <p class="yutuq-card-title">Shu kabi yutug'larimiz natijasida maktabimiz tumanda
+                <strong>1-o'rinni</strong> egalladi</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════ SLIDE 5 — CLUBS ══════ -->
+  <section class="slide grid-tex" id="s5">
+    <span class="slide-num-badge">05</span>
 
     <div class="s4-inner">
       <div class="s4-sidebar">
@@ -128,22 +258,22 @@
       </div>
 
       <div class="s4-grid">
-        <div class="s4-cell as d2"><!-- <img src="p1.jpg"> -->
+        <div class="s4-cell as d2">
           <div class="c-icon">🌳</div><span class="c-label">Tashqi faoliyat</span>
         </div>
-        <div class="s4-cell as d3"><!-- <img src="p2.jpg"> -->
+        <div class="s4-cell as d3">
           <div class="c-icon">📚</div><span class="c-label">Kutubxona</span>
         </div>
-        <div class="s4-cell as d4"><!-- <img src="p3.jpg"> -->
+        <div class="s4-cell as d4">
           <div class="c-icon">📖</div><span class="c-label">O'qish xonasi</span>
         </div>
-        <div class="s4-cell as d5"><!-- <img src="p4.jpg"> -->
+        <div class="s4-cell as d5">
           <div class="c-icon">🎨</div><span class="c-label">Ijodiy ish</span>
         </div>
-        <div class="s4-cell as d6"><!-- <img src="p5.jpg"> -->
+        <div class="s4-cell as d6">
           <div class="c-icon">⚽</div><span class="c-label">Sport maydoni</span>
         </div>
-        <div class="s4-cell as d7"><!-- <img src="p6.jpg"> -->
+        <div class="s4-cell as d7">
           <div class="c-icon">💻</div><span class="c-label">Kompyuter sinfi</span>
         </div>
       </div>
@@ -151,9 +281,9 @@
   </section>
 
 
-  <!-- ══════ SLIDE 5 — PLANS ══════ -->
-  <section class="slide" id="s5">
-    <span class="slide-num-badge" style="color:#6b7280">05</span>
+  <!-- ══════ SLIDE 6 — PLANS ══════ -->
+  <section class="slide" id="s6">
+    <span class="slide-num-badge" style="color:#6b7280">06</span>
 
     <div class="s5-inner">
       <span class="tag au d1">🗓 2026-yil</span>
@@ -188,8 +318,8 @@
   </section>
 
 
-  <!-- ══════ SLIDE 6 — XULOSA ══════ -->
-  <section class="slide grid-tex" id="s6">
+  <!-- ══════ SLIDE 7 — XULOSA ══════ -->
+  <section class="slide grid-tex" id="s7">
 
     <div class="s6-header au d1">
       <h2>Xulosa</h2>
@@ -208,7 +338,8 @@
           <div class="stair-card au d3">
             <span class="stair-num">02</span>
             <p class="stair-text">Biz yoshlar Prezidentimiz olib borayotgan islohotlar asosida qilinayotgan ishlarga
-              <strong style="color:var(--amber)">"Labbay"</strong> deb javob beramiz.</p>
+              <strong style="color:var(--amber)">"Labbay"</strong> deb javob beramiz.
+            </p>
           </div>
         </div>
         <div class="stair">

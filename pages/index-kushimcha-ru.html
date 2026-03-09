@@ -11,6 +11,7 @@
 
 <body>
 
+  <!-- ── FIXED CHROME ── -->
   <div id="nav-dots">
     <div class="nd on" onclick="goTo(0)"></div>
     <div class="nd" onclick="goTo(1)"></div>
@@ -18,26 +19,29 @@
     <div class="nd" onclick="goTo(3)"></div>
     <div class="nd" onclick="goTo(4)"></div>
     <div class="nd" onclick="goTo(5)"></div>
+    <div class="nd" onclick="goTo(6)"></div>
   </div>
-  <div id="slide-ctr">01 / 06</div>
+  <div id="slide-ctr">01 / 07</div>
   <button id="btn-prev" onclick="nav(-1)">↑</button>
   <button id="btn-next" onclick="nav(1)">↓</button>
 
 
+  <!-- ══════ СЛАЙД 1 — ОБЛОЖКА ══════ -->
   <section class="slide grid-tex" id="s1">
     <span class="slide-num-badge">01</span>
 
     <div class="s1-logo-ring as d1">
-      <div class="s1-logo-ph">ДАВЛАТАБАД<br>ШКОЛА №58</div>
+      <div class="s1-logo-ph">ДАВЛАТОБОД<br>ШКОЛА<br>№58</div>
     </div>
 
-    <p class="s1-eyebrow au d2">Республика Узбекистан · Наманганская область · Давлатабадский район</p>
+    <p class="s1-eyebrow au d2">Республика Узбекистан · Наманганская область · Давлатободский район</p>
 
     <h1 class="au d3">
-      Отчет о проделанной работе за 2025 год<br>
-      и <em>планы, задачи, проекты на 2026 год</em><br>
-      в общеобразовательной школе №58<br>
-      <em>с углубленным изучением отдельных предметов</em>
+      Общеобразовательная школа №58<br>
+      <em>с углублённым изучением отдельных предметов</em><br>
+      Работа, выполненная в <em>2025 году,</em><br>
+      и планы, задачи, предложения<br>
+      <em>на 2026 год</em>
     </h1>
 
     <div class="s1-chips au d4">
@@ -48,13 +52,14 @@
   </section>
 
 
+  <!-- ══════ СЛАЙД 2 — О ШКОЛЕ ══════ -->
   <section class="slide" id="s2">
     <span class="slide-num-badge" style="color:#6b7280">02</span>
 
     <div class="s2-layout">
       <div class="s2-photo al d1">
         <div class="flag-strip"></div>
-        <div class="ph-label"><img src="../img/direktor.png" alt=""></div>
+        <div class="ph-label"><img src="../img/direktor.png" alt="директор"></div>
       </div>
 
       <div class="s2-content">
@@ -62,20 +67,19 @@
         <h2 class="au d2">О нашей школе</h2>
         <span class="accent-bar au d2" style="animation-delay:.14s"></span>
 
-        <p class="s2-para au d3">Наша школа была основана в <strong>1991 году</strong> и рассчитана на <strong>1296
-            мест</strong>. На данный момент здесь обучаются <strong>2323 ученика</strong>, которым дают знания
-          <strong>118 учителей</strong>.</p>
-        <p class="s2-para au d4">Из них <strong>84 педагога</strong> имеют высшую и первую категорию. Более <strong>64
-            учителей</strong> обладают международными и национальными сертификатами.</p>
-        <p class="s2-para au d5">Помимо специализированных классов, в школе открыт новый <strong>класс
-            «Жасорат»</strong>. Наше руководство и педагоги прошли стажировку в <strong>Финляндии</strong> для обмена
-          опытом.</p>
+        <p class="s2-para au d3">Наша школа основана в <strong>1991 году</strong> и рассчитана на <strong>1296
+            мест</strong>. Сегодня в ней обучаются <strong>2323 ученика</strong>. <strong>118 педагогов</strong> ведут
+          учебно-воспитательный процесс.</p>
+        <p class="s2-para au d4"><strong>84 учителя</strong> имеют высшую и первую квалификационные категории.
+          <strong>Более 64</strong> педагогов — обладатели международных и национальных сертификатов.</p>
+        <p class="s2-para au d5">Помимо профильных классов, в школе открыт новый класс <strong>«Jasоrat»</strong>.
+          Руководство и педагоги прошли <strong>стажировку в Финляндии</strong> для обмена опытом.</p>
 
         <div class="s2-stats au d6">
           <div class="s2-stat"><strong>2400+</strong><span>Учеников</span></div>
-          <div class="s2-stat"><strong>118</strong><span>Учителей</span></div>
-          <div class="s2-stat"><strong>84</strong><span>Высшая кат.</span></div>
-          <div class="s2-stat"><strong>64+</strong><span>Сертифицированы</span></div>
+          <div class="s2-stat"><strong>118</strong><span>Педагогов</span></div>
+          <div class="s2-stat"><strong>84</strong><span>Высш. категория</span></div>
+          <div class="s2-stat"><strong>64+</strong><span>Сертификаты</span></div>
         </div>
       </div>
 
@@ -84,20 +88,21 @@
   </section>
 
 
+  <!-- ══════ СЛАЙД 3 — ЦИТАТА ══════ -->
   <section class="slide" id="s3">
     <span class="slide-num-badge" style="color:#6b7280">03</span>
 
     <div class="s3-layout">
       <div class="s3-photo al d1">
         <div class="flag-strip"></div>
-        <div class="ph-label"><img src="../img/prizidentt.png" width="608" height="910" alt="президент"></div>
+        <div class="ph-label"><img class="ph__img" src="../img/prizidentt.png" alt="президент"></div>
       </div>
 
       <div class="s3-content">
         <div class="s3-open au d1">"</div>
         <blockquote class="au d2">
-          Сегодня каждый из нас должен быть настоящим патриотом, любящим свою Родину, и именно в этом духе мы должны
-          воспитывать нашу молодежь.
+          Сегодня каждый из нас должен быть настоящим патриотом, любящим свою Родину, и воспитывать молодёжь именно в
+          таком духе.
         </blockquote>
         <cite class="au d3">Ш. Мирзиёев</cite>
       </div>
@@ -107,21 +112,153 @@
   </section>
 
 
-  <section class="slide grid-tex" id="s4">
+  <!-- ══════ СЛАЙД 4 — ДОСТИЖЕНИЯ (НОВЫЙ) ══════ -->
+  <section class="slide" id="s4-yutuq">
     <span class="slide-num-badge">04</span>
+
+    <div style="display:flex;flex-direction:column;width:100%;min-height:100vh;position:relative;z-index:1;">
+
+      <!-- Заголовок -->
+      <div class="yutuq-header au d1">
+        <span class="yutuq-header-icon">🏆</span>
+        <h2>Достижения нашей школы в 2025 году</h2>
+        <span class="yutuq-header-icon">🏆</span>
+      </div>
+
+      <!-- Карточки -->
+      <div class="yutuq-body">
+        <div class="yutuq-grid">
+
+          <!-- Карточка 1: Выпускники -->
+          <div class="yutuq-card as d2">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq1.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Выпускники">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🎓</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">01</span>
+                <span class="yutuq-card-badge">Выпускники</span>
+              </div>
+              <p class="yutuq-card-title">Главное достижение — <strong>85%</strong> выпускников 2025 года стали
+                студентами высших учебных заведений</p>
+            </div>
+          </div>
+
+          <!-- Карточка 2: Сертификаты -->
+          <div class="yutuq-card as d3">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq2.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Сертификаты">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">📜</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">02</span>
+                <span class="yutuq-card-badge">Сертификаты</span>
+              </div>
+              <p class="yutuq-card-title">Более <strong>200 учеников</strong> являются обладателями международных и
+                национальных сертификатов</p>
+            </div>
+          </div>
+
+          <!-- Карточка 3: Спорт -->
+          <div class="yutuq-card as d4">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq3.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Спорт">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🥇</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">03</span>
+                <span class="yutuq-card-badge">Спорт</span>
+              </div>
+              <p class="yutuq-card-title">На чемпионатах Узбекистана, Азии и мира <strong>более 20 учеников</strong>
+                завоевали золотые медали в спортивных дисциплинах</p>
+            </div>
+          </div>
+
+          <!-- Карточка 4: Конкурсы -->
+          <div class="yutuq-card as d5">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq4.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Конкурсы">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🏅</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">04</span>
+                <span class="yutuq-card-badge">Конкурсы</span>
+              </div>
+              <p class="yutuq-card-title">Ученики участвовали в областных, республиканских и международных конкурсах,
+                добившись <strong>значительных успехов</strong></p>
+            </div>
+          </div>
+
+          <!-- Карточка 5: Олимпиады -->
+          <div class="yutuq-card as d6">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq5.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Олимпиады">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🎭</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">05</span>
+                <span class="yutuq-card-badge">Олимпиады</span>
+              </div>
+              <p class="yutuq-card-title">Участники «Turon teatri», «Iqtidor ansambli», республиканских и международных
+                олимпиад заняли <strong>призовые места</strong></p>
+            </div>
+          </div>
+
+          <!-- Карточка 6: Итог -->
+          <div class="yutuq-card as d7">
+            <div class="yutuq-card-imgbox">
+              <img class="yutuq-card-main-img" src="../img/yutuq6.jpg"
+                onerror="this.style.display='none';this.parentNode.querySelector('.yutuq-emoji').style.display='block'"
+                alt="Итог">
+              <span class="yutuq-emoji" style="display:none;font-size:52px;position:relative;z-index:1;">🏫</span>
+            </div>
+            <div class="yutuq-card-body">
+              <div class="yutuq-card-meta">
+                <span class="yutuq-card-num">06</span>
+                <span class="yutuq-card-badge">Общий итог</span>
+              </div>
+              <p class="yutuq-card-title">По совокупности достижений наша школа заняла <strong>1-е место</strong> в
+                районе</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════ СЛАЙД 5 — КРУЖКИ ══════ -->
+  <section class="slide grid-tex" id="s5">
+    <span class="slide-num-badge">05</span>
 
     <div class="s4-inner">
       <div class="s4-sidebar">
         <span class="eyebrow au d1">Кружки</span>
-        <h2 class="au d2">Будни <em>жизни</em><br>нашей школы</h2>
+        <h2 class="au d2">Повседневная<br><em>Жизнь</em> школы</h2>
         <span class="accent-bar au d2" style="animation-delay:.14s"></span>
-        <p class="au d3">У нас функционируют научные, спортивные и творческие кружки, а также часы книголюбия. Здесь
-          ученики развивают навыки и готовятся к будущим достижениям.</p>
+        <p class="au d3">В школе работают научные и спортивные секции, творческие кружки и часы чтения. Участвуя в них,
+          ученики готовятся к предстоящим мероприятиям.</p>
       </div>
 
       <div class="s4-grid">
         <div class="s4-cell as d2">
-          <div class="c-icon">🌳</div><span class="c-label">Внеклассная работа</span>
+          <div class="c-icon">🌳</div><span class="c-label">Внешняя деятельность</span>
         </div>
         <div class="s4-cell as d3">
           <div class="c-icon">📚</div><span class="c-label">Библиотека</span>
@@ -130,7 +267,7 @@
           <div class="c-icon">📖</div><span class="c-label">Читальный зал</span>
         </div>
         <div class="s4-cell as d5">
-          <div class="c-icon">🎨</div><span class="c-label">Творчество</span>
+          <div class="c-icon">🎨</div><span class="c-label">Творческий кружок</span>
         </div>
         <div class="s4-cell as d6">
           <div class="c-icon">⚽</div><span class="c-label">Спортплощадка</span>
@@ -143,33 +280,36 @@
   </section>
 
 
-  <section class="slide" id="s5">
-    <span class="slide-num-badge" style="color:#6b7280">05</span>
+  <!-- ══════ СЛАЙД 6 — ПЛАНЫ ══════ -->
+  <section class="slide" id="s6">
+    <span class="slide-num-badge" style="color:#6b7280">06</span>
 
     <div class="s5-inner">
       <span class="tag au d1">🗓 2026 год</span>
-      <h2 class="au d2">Приоритетные <em>планы</em><br>и задачи на 2026 год</h2>
+      <h2 class="au d2">Ключевые <em>Приоритетные</em><br>Планы и Задачи на 2026 год</h2>
       <span class="accent-bar au d2" style="animation-delay:.14s"></span>
 
       <div class="plan-cards">
         <div class="plan-card pc1 au d3">
           <span class="pc-num">01</span><span class="pc-icon">🌏</span>
-          <p class="pc-text">Внедрение передового зарубежного опыта в учебный процесс</p>
-          <span class="pc-tag">Мировой опыт</span>
+          <p class="pc-text">Внедрение зарубежного опыта в учебный процесс</p>
+          <span class="pc-tag">Международный опыт</span>
         </div>
         <div class="plan-card pc2 au d4">
           <span class="pc-num">02</span><span class="pc-icon">💡</span>
-          <p class="pc-text">Повышение креативности через работу в малых группах для раскрытия талантов</p>
-          <span class="pc-tag">Креативность</span>
+          <p class="pc-text">Развитие творческих способностей учеников через работу в малых группах при демонстрации их
+            таланта</p>
+          <span class="pc-tag">Творчество</span>
         </div>
         <div class="plan-card pc3 au d5">
           <span class="pc-num">03</span><span class="pc-icon">📱</span>
-          <p class="pc-text">Проект «Здоровые медиа» и развитие навыков работы с цифровыми технологиями</p>
-          <span class="pc-tag">Digital-навыки</span>
+          <p class="pc-text">Формирование навыков эффективного использования цифровых технологий в рамках проекта
+            «Здоровые медиа»</p>
+          <span class="pc-tag">Цифровые навыки</span>
         </div>
         <div class="plan-card pc4 au d6">
           <span class="pc-num">04</span><span class="pc-icon">✨</span>
-          <p class="pc-text">Организация духовно-просветительской работы на основе инновационных подходов</p>
+          <p class="pc-text">Организация духовно-просветительской работы на основе инновационного подхода</p>
           <span class="pc-tag">Инновации</span>
         </div>
       </div>
@@ -177,7 +317,8 @@
   </section>
 
 
-  <section class="slide grid-tex" id="s6">
+  <!-- ══════ СЛАЙД 7 — ЗАКЛЮЧЕНИЕ ══════ -->
+  <section class="slide grid-tex" id="s7">
 
     <div class="s6-header au d1">
       <h2>Заключение</h2>
@@ -189,33 +330,34 @@
         <div class="stair">
           <div class="stair-card au d2">
             <span class="stair-num">01</span>
-            <p class="stair-text">Помыслы учеников и учителей нашей школы чисты и благородны.</p>
+            <p class="stair-text">Намерения наших учеников и педагогов искренни и бескорыстны.</p>
           </div>
         </div>
         <div class="stair">
           <div class="stair-card au d3">
             <span class="stair-num">02</span>
-            <p class="stair-text">Мы, молодежь, говорим <strong style="color:var(--amber)">«Лаббай»</strong> (Готовы!) в
-              ответ на реформы нашего Президента.</p>
+            <p class="stair-text">Мы, молодёжь, отвечаем <strong style="color:var(--amber)">«Есть!»</strong> на реформы,
+              проводимые нашим Президентом.</p>
           </div>
         </div>
         <div class="stair">
           <div class="stair-card au d4">
             <span class="stair-num">03</span>
-            <p class="stair-text">Обещаем занять ведущие позиции на мировом рынке труда.</p>
+            <p class="stair-text">Обещаем занять лидирующие позиции на мировом рынке труда.</p>
           </div>
         </div>
         <div class="stair">
           <div class="stair-card au d5">
             <p class="stair-text">
-              "Каждый, кто перестает учиться, стареет — неважно, в двадцать или восемьдесят лет."
-              <strong>— Генри Форд</strong>
+              "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young."
+              <strong>— Henry Ford</strong>
             </p>
           </div>
         </div>
       </div>
     </div>
   </section>
+
 
   <script>
     const slides = [...document.querySelectorAll('.slide')];
